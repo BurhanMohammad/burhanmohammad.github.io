@@ -237,8 +237,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(144deg);
-    transform: rotate(144deg);
+    -webkit-transform: rotate(121.5deg);
+    transform: rotate(121.5deg);
   }
 }
 @keyframes loading-9 {
@@ -247,8 +247,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(144deg);
-    transform: rotate(144deg);
+    -webkit-transform: rotate(121.5deg);
+    transform: rotate(121.5deg);
   }
 }
 @keyframes loading-10 {
