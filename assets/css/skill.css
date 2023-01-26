@@ -93,18 +93,17 @@
 }
 .progress.steelblue .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.8s;
-}
-
-
-.progress.orange .progress-bar {
-  border-color: orange;                                         /* Django*/
+}                                    
+                                                            
+                                                                        /* Django*/ 
+/* .progress.orange .progress-bar {
 }
 .progress.orange .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.8s;
 }
 .progress.orange .progress-bar {
   border-color: orange;
-}
+}                                                           
 .progress.orange .progress-left .progress-bar {
   animation: loading-6 1.5s linear forwards 1.8s;
 }
@@ -113,7 +112,7 @@
 }
 .progress.orange .progress-left .progress-bar {
   animation: loading-7 1.5s linear forwards 1.8s;
-}
+} */
 .progress.purple .progress-bar {
    border-color: purple;                                         /*HTML     */
 }
@@ -201,7 +200,7 @@
     transform: rotate(162deg);
   }
 }
-@keyframes loading-5 {
+/* @keyframes loading-5 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -230,7 +229,7 @@
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
-}
+} */
 @keyframes loading-8 {
   0% {
     -webkit-transform: rotate(0deg);
