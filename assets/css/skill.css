@@ -79,7 +79,7 @@
   animation: loading-2 1.5s linear forwards 1.8s;
 }
 .progress.yellow .progress-bar {
-  border-color: #a09a89;
+  border-color: yellow;
 }
 .progress.yellow .progress-right .progress-bar {
   animation: loading-3 1.8s linear forwards;
