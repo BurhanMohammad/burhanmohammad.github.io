@@ -73,7 +73,7 @@
   left: 5%;
 }
 .progress.blue .progress-bar {
-  border-color: #049dff;
+   border-color: blue;                             /* python    */
 }
 .progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s;
@@ -89,7 +89,7 @@
 }
 
 .progress.steelblue .progress-bar {
-  border-color: steelblue;
+  border-color: steelblue;                              /* odoo*/
 }
 .progress.steelblue .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.8s;
@@ -97,7 +97,7 @@
 
 
 .progress.orange .progress-bar {
-  border-color: orange;
+  border-color: orange;                                         /* Django*/
 }
 .progress.orange .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.8s;
@@ -115,45 +115,45 @@
   animation: loading-7 1.5s linear forwards 1.8s;
 }
 .progress.purple .progress-bar {
-  border-color: purple;
+   border-color: purple;                                         /*HTML     */
 }
 .progress.purple .progress-left .progress-bar {
   animation: loading-8 1.5s linear forwards 1.8s;
 }
 .progress.black .progress-bar {
-  border-color: black;
+  border-color: black;                                             /*CSS     */
 }
 .progress.black .progress-left .progress-bar {
   animation: loading-9 1.5s linear forwards 1.8s;
 }
 .progress.gray .progress-bar {
-  border-color: gray;
+  border-color: gray;                                                  /*bootstrap     */
 }
 .progress.gray .progress-left .progress-bar {
   animation: loading-10 1.5s linear forwards 1.8s;
 }
 
 .progress.red .progress-bar {
-  border-color: red;
+  border-color: red;                                                         /*SQL     */
 }
 .progress.red .progress-left .progress-bar {
   animation: loading-11 1.5s linear forwards 1.8s;
 }
 .progress.indigo .progress-bar {
-  border-color: indigo;
+  border-color: indigo;                                                          /*Figma     */
 }
 .progress.indigo .progress-left .progress-bar {
   animation: loading-12 1.5s linear forwards 1.8s;
 }
 .progress.violet .progress-bar {
-  border-color: violet;
+  border-color: violet;                                                         /*Github     */
 }
 .progress.violet .progress-left .progress-bar {
   animation: loading-13 1.5s linear forwards 1.8s;
 }
 
 .progress.powderblue .progress-bar {
-  border-color:  powderblue;
+   border-color:  powderblue;                           /*javascript    */
 }
 .progress.powderblue .progress-left .progress-bar {
   animation: loading-14 1.5s linear forwards 1.8s;
