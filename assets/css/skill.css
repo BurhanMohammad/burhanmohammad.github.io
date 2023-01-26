@@ -78,7 +78,7 @@
 .progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s;
 }
-/* .progress.yellow .progress-bar {
+.progress.yellow .progress-bar {
   border-color: yellow;
 }
 .progress.yellow .progress-right .progress-bar {
@@ -86,33 +86,34 @@
 }
 .progress.yellow .progress-left .progress-bar {
   animation: none;
-} */
+}
 
 .progress.steelblue .progress-bar {
   border-color: steelblue;                              /* odoo*/
 }
 .progress.steelblue .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.8s;
-}                                    
-                                                            
-                                                                        /* Django*/ 
+}
+
+                                                         /* Django*/
 /* .progress.orange .progress-bar {
+  border-color: orange;                                         
 }
 .progress.orange .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.8s;
-}
-.progress.orange .progress-bar {
+} */
+/* .progress.orange .progress-bar {
   border-color: orange;
-}                                                           
+}
 .progress.orange .progress-left .progress-bar {
   animation: loading-6 1.5s linear forwards 1.8s;
-}*/
+} */
 .progress.orange .progress-bar {
   border-color: orange;
 }
 .progress.orange .progress-left .progress-bar {
   animation: loading-7 1.5s linear forwards 1.8s;
-} 
+}
 .progress.purple .progress-bar {
    border-color: purple;                                         /*HTML     */
 }
@@ -180,7 +181,7 @@
     transform: rotate(180deg);
   }
 }
-/* @keyframes loading-3 {
+@keyframes loading-3 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -189,7 +190,7 @@
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
   }
-} */
+}
 @keyframes loading-4 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -209,8 +210,8 @@
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
-}
-@keyframes loading-6 {
+} */
+/* @keyframes loading-6 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -219,7 +220,7 @@
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
-}*/
+} */
 @keyframes loading-7 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -229,7 +230,7 @@
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
-} 
+}
 @keyframes loading-8 {
   0% {
     -webkit-transform: rotate(0deg);
