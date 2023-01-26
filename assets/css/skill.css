@@ -227,8 +227,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
+    -webkit-transform: rotate(162deg);
+    transform: rotate(162deg);
   }
 }
 @keyframes loading-8 {
