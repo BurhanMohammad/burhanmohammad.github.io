@@ -78,7 +78,7 @@
 .progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s;
 }
-.progress.yellow .progress-bar {
+/* .progress.yellow .progress-bar {
   border-color: yellow;
 }
 .progress.yellow .progress-right .progress-bar {
@@ -86,7 +86,7 @@
 }
 .progress.yellow .progress-left .progress-bar {
   animation: none;
-}
+} */
 
 .progress.steelblue .progress-bar {
   border-color: steelblue;                              /* odoo*/
@@ -180,7 +180,7 @@
     transform: rotate(180deg);
   }
 }
-@keyframes loading-3 {
+/* @keyframes loading-3 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -189,7 +189,7 @@
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
   }
-}
+} */
 @keyframes loading-4 {
   0% {
     -webkit-transform: rotate(0deg);
