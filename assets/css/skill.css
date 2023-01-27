@@ -121,7 +121,7 @@
   animation: loading-8 1.5s linear forwards 1.8s;
 }
 .progress.black .progress-bar {
-  border-color: black;                                             /*CSS     */
+  border-color: #D67553;                                             /*CSS     */
 }
 .progress.black .progress-left .progress-bar {
   animation: loading-9 1.5s linear forwards 1.8s;
