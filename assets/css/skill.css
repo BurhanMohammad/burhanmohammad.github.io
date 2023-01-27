@@ -1,14 +1,14 @@
-
 .progress {
   width: 150px;
   height: 150px !important;
-  float: left; 
+  float: left;
   line-height: 150px;
   background: none;
   margin: 20px;
   box-shadow: none;
   position: relative;
 }
+
 .progress:after {
   content: "";
   width: 100%;
@@ -19,6 +19,7 @@
   top: 0;
   left: 0;
 }
+
 .progress>span {
   width: 50%;
   height: 100%;
@@ -27,9 +28,11 @@
   top: 0;
   z-index: 1;
 }
+
 .progress .progress-left {
   left: 0;
 }
+
 .progress .progress-bar {
   width: 100%;
   height: 100%;
@@ -39,6 +42,7 @@
   position: absolute;
   top: 0;
 }
+
 .progress .progress-left .progress-bar {
   left: 100%;
   border-top-right-radius: 80px;
@@ -47,9 +51,11 @@
   -webkit-transform-origin: center left;
   transform-origin: center left;
 }
+
 .progress .progress-right {
   right: 0;
 }
+
 .progress .progress-right .progress-bar {
   left: -100%;
   border-top-left-radius: 80px;
@@ -59,6 +65,7 @@
   transform-origin: center right;
   animation: loading-1 1.8s linear forwards;
 }
+
 .progress .progress-value {
   width: 90%;
   height: 90%;
@@ -72,30 +79,38 @@
   top: 5%;
   left: 5%;
 }
+
 .progress.blue .progress-bar {
-   border-color: blue;                             /* python    */
+  border-color: blue;
+  /* python    */
 }
+
 .progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s;
 }
+
 .progress.yellow .progress-bar {
   border-color: yellow;
 }
+
 .progress.yellow .progress-right .progress-bar {
   animation: loading-3 1.8s linear forwards;
 }
+
 .progress.yellow .progress-left .progress-bar {
   animation: none;
 }
 
 .progress.steelblue .progress-bar {
-  border-color: steelblue;                              /* odoo*/
+  border-color: steelblue;
+  /* odoo*/
 }
+
 .progress.steelblue .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.8s;
 }
 
-                                                         /* Django*/
+/* Django*/
 /* .progress.orange .progress-bar {
   border-color: orange;                                         
 }
@@ -111,66 +126,90 @@
 .progress.orange .progress-bar {
   border-color: orange;
 }
+
 .progress.orange .progress-left .progress-bar {
   animation: loading-7 1.5s linear forwards 1.8s;
 }
+
 .progress.purple .progress-bar {
-   border-color: purple;                                         /*HTML     */
+  border-color: purple;
+  /*HTML     */
 }
+
 .progress.purple .progress-left .progress-bar {
   animation: loading-8 1.5s linear forwards 1.8s;
 }
+
 .progress.black .progress-bar {
-  border-color: #D67553;                                             /*CSS     */
+  border-color: #D67553;
+  /*CSS     */
 }
+
 .progress.black .progress-left .progress-bar {
   animation: loading-9 1.5s linear forwards 1.8s;
 }
+
 .progress.gray .progress-bar {
-  border-color: gray;                                                  /*bootstrap     */
+  border-color: gray;
+  /*bootstrap     */
 }
+
 .progress.gray .progress-left .progress-bar {
   animation: loading-10 1.5s linear forwards 1.8s;
 }
 
 .progress.red .progress-bar {
-  border-color: #60100B;                                                         /*SQL     */
+  border-color: #60100B;
+  /*SQL     */
 }
+
 .progress.red .progress-left .progress-bar {
   animation: loading-11 1.5s linear forwards 1.8s;
 }
+
 .progress.indigo .progress-bar {
-  border-color: indigo;                                                          /*Figma     */
+  border-color: indigo;
+  /*Figma     */
 }
+
 .progress.indigo .progress-left .progress-bar {
   animation: loading-12 1.5s linear forwards 1.8s;
 }
+
 .progress.violet .progress-bar {
-  border-color: violet;                                                         /*Github     */
+  border-color: violet;
+  /*Github     */
 }
+
 .progress.violet .progress-left .progress-bar {
   animation: loading-13 1.5s linear forwards 1.8s;
 }
 
 .progress.powderblue .progress-bar {
-   border-color:  powderblue;                           /*javascript    */
+  border-color: powderblue;
+  /*javascript    */
 }
+
 .progress.powderblue .progress-left .progress-bar {
   animation: loading-14 1.5s linear forwards 1.8s;
 }
 
 .progress.green .progress-bar {
-  border-color:  greenyellow;                           /*Ofice 365    */
+  border-color: greenyellow;
+  /*Ofice 365    */
 }
+
 .progress.green .progress-left .progress-bar {
- animation: loading-15 1.5s linear forwards 1.8s;
+  animation: loading-15 1.5s linear forwards 1.8s;
 }
 
 .progress.pink .progress-bar {
-  border-color:  pink;                           /*Microsoft    */
+  border-color: pink;
+  /*Microsoft    */
 }
+
 .progress.pink .progress-left .progress-bar {
- animation: loading-16 1.5s linear forwards 1.8s;
+  animation: loading-1 1.5s linear forwards 1.8s;
 }
 
 
@@ -180,41 +219,49 @@
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
   }
 }
+
 @keyframes loading-2 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
   }
 }
+
 @keyframes loading-3 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
   }
 }
+
 @keyframes loading-4 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
 }
+
 /* @keyframes loading-5 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -240,76 +287,91 @@
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
 }
+
 @keyframes loading-8 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(121.5deg);
     transform: rotate(121.5deg);
   }
 }
+
 @keyframes loading-9 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(121.5deg);
     transform: rotate(121.5deg);
   }
 }
+
 @keyframes loading-10 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
   }
 }
+
 @keyframes loading-11 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
   }
 }
+
 @keyframes loading-12 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
 }
+
 @keyframes loading-13 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
 }
+
 @keyframes loading-14 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
@@ -321,9 +383,9 @@
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
 }
-
