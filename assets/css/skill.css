@@ -195,7 +195,7 @@
 }
 
 .progress.green .progress-bar {
-  border-color: powderblue;
+  border-color: blue,green;
   /*javascript    */
 }
 
