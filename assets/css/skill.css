@@ -194,13 +194,13 @@
   animation: loading-14 1.5s linear forwards 1.8s;
 }
 
-.progress.white .progress-bar {
-  border-color: rgb(168, 201, 119);
+.progress.green .progress-bar {
+  border-color: greenyellow;
   /*Ofice 365    */
 }
 
-.progress.white .progress-left .progress-bar {
-  animation: loading-16 1.5s linear forwards 1.8s;
+.progress.green .progress-left .progress-bar {
+  animation: loading-15 1.5s linear forwards 1.8s;
 }
 
 .progress.pink .progress-bar {
@@ -366,7 +366,7 @@
   }
 }
 
-/* @keyframes loading-14 {
+@keyframes loading-15 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -376,9 +376,9 @@
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
   }
-} */
+}
 
-@keyframes loading-16 {
+/* @keyframes loading-16 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -388,4 +388,4 @@
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
-}
+} */
