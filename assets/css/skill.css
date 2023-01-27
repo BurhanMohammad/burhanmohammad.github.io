@@ -194,6 +194,14 @@
   animation: loading-14 1.5s linear forwards 1.8s;
 }
 
+.progress.green .progress-bar {
+  border-color: powderblue;
+  /*javascript    */
+}
+
+.progress.green .progress-left .progress-bar {
+  animation: loading-4 1.5s linear forwards 1.8s;
+}
 
 
 .progress.pink .progress-bar {
