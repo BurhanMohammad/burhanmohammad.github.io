@@ -200,7 +200,7 @@
 }
 
 .progress.green .progress-left .progress-bar {
-  animation: loading-4 1.5s linear forwards 1.8s;
+  animation: loading-12 1.5s linear forwards 1.8s;
 }
 
 .progress.pink .progress-bar {
