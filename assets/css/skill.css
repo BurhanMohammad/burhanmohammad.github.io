@@ -195,12 +195,12 @@
 }
 
 .progress.white .progress-bar {
-  border-color: greenyellow;
+  border-color: rgb(168, 201, 119);
   /*Ofice 365    */
 }
 
 .progress.white .progress-left .progress-bar {
-  animation: loading-12 1.5s linear forwards 1.8s;
+  animation: loading-16 1.5s linear forwards 1.8s;
 }
 
 .progress.pink .progress-bar {
@@ -378,7 +378,7 @@
   }
 } */
 
-/* @keyframes loading-16 {
+@keyframes loading-16 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -388,4 +388,4 @@
     -webkit-transform: rotate(162deg);
     transform: rotate(162deg);
   }
-} */
+}
