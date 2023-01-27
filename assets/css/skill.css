@@ -159,6 +159,13 @@
   animation: loading-14 1.5s linear forwards 1.8s;
 }
 
+.progress.powderblue .progress-bar {
+  border-color:  greenyellow;                           /*Ofice 365    */
+}
+.progress.powderblue .progress-left .progress-bar {
+ animation: loading-15 1.5s linear forwards 1.8s;
+}
+
 
 
 @keyframes loading-1 {
@@ -292,6 +299,17 @@
   }
 }
 @keyframes loading-14 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+
+@keyframes loading-15 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
