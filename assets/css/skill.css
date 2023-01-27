@@ -209,7 +209,7 @@
 }
 
 .progress.pink .progress-left .progress-bar {
-  animation: loading-1 1.5s linear forwards 1.8s;
+  animation: loading-4 1.5s linear forwards 1.8s;
 }
 
 
@@ -373,8 +373,8 @@
   }
 
   100% {
-    -webkit-transform: rotate(162deg);
-    transform: rotate(162deg);
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
   }
 }
 
