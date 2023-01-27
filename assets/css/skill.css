@@ -159,10 +159,10 @@
   animation: loading-14 1.5s linear forwards 1.8s;
 }
 
-.progress.powderblue .progress-bar {
+.progress.green .progress-bar {
   border-color:  greenyellow;                           /*Ofice 365    */
 }
-.progress.powderblue .progress-left .progress-bar {
+.progress.green .progress-left .progress-bar {
  animation: loading-15 1.5s linear forwards 1.8s;
 }
 
