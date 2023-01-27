@@ -166,6 +166,13 @@
  animation: loading-15 1.5s linear forwards 1.8s;
 }
 
+.progress.pink .progress-bar {
+  border-color:  pink;                           /*Microsoft    */
+}
+.progress.pink .progress-left .progress-bar {
+ animation: loading-16 1.5s linear forwards 1.8s;
+}
+
 
 
 @keyframes loading-1 {
@@ -304,8 +311,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(144deg);
-    transform: rotate(144deg);
+    -webkit-transform: rotate(162deg);
+    transform: rotate(162deg);
   }
 }
 
@@ -315,8 +322,8 @@
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(144deg);
-    transform: rotate(144deg);
+    -webkit-transform: rotate(162deg);
+    transform: rotate(162deg);
   }
 }
 
