@@ -194,12 +194,12 @@
   animation: loading-14 1.5s linear forwards 1.8s;
 }
 
-.progress.opnd .progress-bar {
+.progress.red-orange .progress-bar {
   border-color: greenyellow;
   /*Ofice 365    */
 }
 
-.progress.opnd .progress-left .progress-bar {
+.progress.progress.red-orange .progress-left .progress-bar {
   animation: loading-12 1.5s linear forwards 1.8s;
 }
 
