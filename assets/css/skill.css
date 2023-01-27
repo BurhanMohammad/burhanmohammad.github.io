@@ -200,7 +200,7 @@
 }
 
 .progress.green .progress-left .progress-bar {
-  animation: loading-15 1.5s linear forwards 1.8s;
+  animation: loading-4 1.5s linear forwards 1.8s;
 }
 
 .progress.pink .progress-bar {
@@ -366,7 +366,7 @@
   }
 }
 
-@keyframes loading-14 {
+/* @keyframes loading-14 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -376,7 +376,7 @@
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
   }
-}
+} */
 
 /* @keyframes loading-16 {
   0% {
