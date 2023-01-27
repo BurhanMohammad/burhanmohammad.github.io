@@ -134,7 +134,7 @@
 }
 
 .progress.red .progress-bar {
-  border-color: red;                                                         /*SQL     */
+  border-color: #60100B;                                                         /*SQL     */
 }
 .progress.red .progress-left .progress-bar {
   animation: loading-11 1.5s linear forwards 1.8s;
